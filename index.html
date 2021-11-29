@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TI Verde</title>
+</head>
+<body>
+
+    <div class="container-menu">
+        <div class="wrapper-menu">
+            <a href="index.html" class="logo">Equipe TI</a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button> <!-- Botão para ativar a lista de Menu-->
+                <ul id="menu" role="menu">
+                    <li><a href="#inicial">Home</a></li>
+                    <li><a href="/">O que é</a></li>
+                    <li><a href="/">Práticas</a></li>
+                    <li><a href="quem.html">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+</div>
+
+    <!--<header class="hero">-->
+    <header class="wrapper">
+        <div class="header"></div>
+        <div class="slider"> <!-- Div que vai ter o conteúdo completo do slider -->
+            <div class="slider--controls"> <!-- Altura será ajustada via javascript-->
+                <div class="slider--control" onclick="goPrev()"><i class="fas fa-chevron-circle-left"></i></div>
+                <div class="slider--control" onclick="goNext()"><i class="fas fa-chevron-circle-right"></i></div>
+            </div>
+            <div class="slider--width"> <!-- Div que vai se mover de um lado para o outro. Div que contem as imagens-->
+                <div class="slider--item img1">
+                    <div class="hero-texto">
+                        <h2>TI verde</h2>
+                        <p>A sustentabilidade é uma questão de sobrevivência, podemos utilizar os recursos naturais, mas de maneira moderada e inteligente, para que as gerações futuras possam também usufruir desses recursos.</p>
+                    </div>
+                </div>
+                <div class="slider--item img2">
+                    <div class="hero-texto">
+                        <h2>Energia limpa</h2>
+                        <p>O uso de energia limpa é uma excelente forma de colaborar para um mundo melhor, pois não liberam resíduos na atmosfera e são facilmente implementadas..</p>
+                    </div>
+                </div>
+                <div class="slider--item img3">
+                    <h2>TEXTO 3ª IMAGEM</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+        <!-- 
+        <picture>
+            <source media="(max-width: 1020px )" srcset="imagens/banner_1000.jpg">
+            <img src="imagens/banner_1920.jpg" alt="Banner Sustentabilidade">
+        </picture>
+        -->
+       <!--
+        <div class="hero-texto">
+            <h1>TI Verde</h1>
+            <p>A sustentabilidade é uma questão de sobrevivência, podemos utilizar os recursos naturais, mas de maneira moderada e inteligente, para que as gerações futuras possam também usufruir desses recursos.</p>
+        </div>
+        -->
+    </header>
+    <main>
+        <section>
+            <h1 id="tiverde">O que é TI Verde?</h1>
+            <p>A Tecnologia Verde - ou Green IT — é um conjunto de práticas que devem ser adotadas pelas organizações ou indivíduos para usufruir das tecnologias de maneira mais eficiente e sem deixar resíduos na natureza.</p>
+            <p>O conceito envolve um conjunto de práticas mais ecológicas, entre elas o armazenamento em nuvem, a melhora no consumo de energia, a modernização de equipamentos para aumentar sua vida útil e o estabelecimento de uma política eficiente de descarte.</p>
+
+            <h2>Como transformar minha TI em uma TI verde?</h2>
+
+            <p>Mas não pense que uma boa implementação garante automaticamente seu carimbo verde: para isso, é preciso obter uma certificação internacional, em um processo criterioso e que demanda aferições frequentes.</p>
+
+            <p>Para, de fato, alcançar o status de TI verde, deve-se estar em conformidade com a ISO 14001, que determina os requisitos de um sistema de gestão ambiental. A norma é responsável por medir o impacto de uma série de negócios no meio ambiente.</p>
+
+        </section>
+        <section>
+            <h2 id="praticas">Práticas de Sustentabilidade na TI</h2>
+            <ul>
+                <li>Conscientização de colaboradores</li>
+                <li>Redução de consumo de papel e outros itens de escritório</li>
+                <li>Adquirir hardware com uso energético mais eficiente</li>
+                <li>Descarte correto de materiais eletrônicos</li>
+                <li>Gerenciamento de energia</li>
+                <li>Preferência por parcerias e produtos verdes</li>
+            </ul>
+        </section>
+
+
+        
+
+    </main>
+    <footer>
+        <p>Equipe Green TI</p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/menu-mobile.js"></script>
+</body>
+</html>

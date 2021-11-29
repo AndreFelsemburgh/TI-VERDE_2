@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TI Verde</title>
+</head>
+<body>
+    <!-- <nav id="inicial">
+            <a href="index.html">home</a>
+            <a href="#tiverde">O que é</a>
+            <a href="#praticas">Práticas</a>
+            <a href="#quem">Quem Somos</a>
+        </nav>
+       -->
+    <div class="container-menu">
+            <div class="wrapper-menu">
+                <a href="index.html" class="logo">Green IT</a>
+                <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                        <span id="hamburger"></span>
+                    </button> <!-- Botão para ativar a lista de Menu-->
+                    <ul id="menu" role="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">O que é</a></li>
+                        <li><a href="/">Práticas</a></li>
+                        <li><a href="#quem">Quem Somos</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+    
+    <header class="wrapper">
+        <div class="header"></div>
+        <div class="slider"> <!-- Div que vai ter o conteúdo completo do slider -->
+            <div class="slider--controls"> <!-- Altura será ajustada via javascript-->
+                <div class="slider--control" onclick="goPrev()"><i class="fas fa-chevron-circle-left"></i></div>
+                <div class="slider--control" onclick="goNext()"><i class="fas fa-chevron-circle-right"></i></div>
+            </div>
+            <div class="slider--width"> <!-- Div que vai se mover de um lado para o outro. Div que contem as imagens-->
+                <div class="slider--item img1">
+                    <div class="hero-texto">
+                        <h2>TI verde</h2>
+                        <p>A sustentabilidade é uma questão de sobrevivência, podemos utilizar os recursos naturais, mas de maneira moderada e inteligente, para que as gerações futuras possam também usufruir desses recursos.</p>
+                    </div>
+                </div>
+                <div class="slider--item img2">
+                    <div class="hero-texto">
+                        <h2>Energia limpa</h2>
+                        <p>O uso de energia limpa é uma excelente forma de colaborar para um mundo melhor, pois não liberam resíduos na atmosfera e são facilmente implementadas..</p>
+                    </div>
+                </div>
+                <div class="slider--item img3">
+                    <h2>TEXTO 3ª IMAGEM</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h1 id="quem">Quem Somos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni facere tenetur. Ea hic quia tempora ad repellendus laboriosam quibusdam quos maxime totam quo sunt autem sed rerum, vel sint. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae non obcaecati magni maxime veniam nam dolore minus sed ea in, ipsum incidunt ad voluptas veritatis! Aliquid recusandae doloremque eum id!</p>
+            <div class="cards">
+                
+                <div class="card">
+                    <img src="imagens/Francisco.jpg" alt="Foto do Francisco">
+                    <div class="info">
+                        <h1>Francisco Gullo Neto</h1>
+                        <p class="title">Estudante do curso de Análise e Desenvolvimento de Sistemas</p>
+                        <p>Matricula: 5405812</p>
+                        <p class="local">Unigranrio</p>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="mailto:neto2627@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                
+                </div>
+                <div class="card">
+                    <img src="imagens/gb.jpg" alt="Foto Gabriel">
+                    <div class="info">
+                        <h1>Gabriel Eduardo C. Gomes</h1>
+                        <p class="title">Estudante do curso de Análise e Desenvolvimento de Sistemas</p>
+                        <p>Matricula: 5405895</p>
+                        <p>Unigranrio</p>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="mailto:gabriel.educg@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                
+                </div>
+                <div class="card">
+                    <img src="imagens/Rogerio.jpg" alt="Foto do Rogério">
+                    <div class="info">
+                        <h1>Rogério Júnior  O. Rocha</h1>
+                        <p class="title">Estudante do curso de Análise e Desenvolvimento de Sistemas</p>
+                        <p>Matricula: 5405945</p>
+                        <p>Unigranrio</p>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="mailto:rogeriooliveira@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>Equipe Green TI</p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/menu-mobile.js"></script>
+</body>
+</html>
