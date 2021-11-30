@@ -33,7 +33,7 @@ body {
 
 .container-menu {
     background-color: var(--cor1);
-    box-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.192);
+   /* box-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.192);*/
     border-bottom: 1px solid var(--cor2);
     display: block;
     width: 100%;
@@ -436,6 +436,7 @@ section > ul > li::before {
 
 
 footer {
+    max-width:1080px;
     background-color: var(--cor1);
     color: white;
     text-align: center;
