@@ -347,6 +347,83 @@ section > ul > li::before {
 /* FIM QUEM SOMOS  */
 
 
+
+/* FORMULÁRIO DE CONTATOS */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.6rem;
+    margin-top: 50px;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: var(--cor1);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--cor1);
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color:var(--cor1);
+    box-shadow: 0 0 0 3px var(--cor5);
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: var(--cor4);
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: var(--cor5);
+  }
+
+
+
+
 /* MEDIA SCREEN E MENU-MOBILE */
 
 
