@@ -1,0 +1,17 @@
+.img1 {
+    background-image: url('../imagens/cloud.jpg');
+    background-position: center; 
+    background-size: cover; 
+}
+
+.img2 {
+    background-image: url('../imagens/cloud1.jpg');
+    background-position: center; 
+    background-size: cover; 
+}
+
+.img3 {
+    background-image: url('../imagens/cloud2.jpg');
+    background-position: center; 
+    background-size: cover; 
+}
