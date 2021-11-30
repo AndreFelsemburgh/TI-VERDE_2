@@ -355,6 +355,7 @@ section > ul > li::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .form {
@@ -386,7 +387,6 @@ section > ul > li::before {
     border: 1px solid var(--cor1);
     border-radius: 8px;
     transition: border-color, box-shadow 0.2s;
-    /*display: block;*/
   }
   
   .form textarea {
