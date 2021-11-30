@@ -1,0 +1,17 @@
+.img1 {
+    background-image: url('../imagens/painel-solar.jpg');
+    background-position: center; 
+    background-size: cover; 
+}
+
+.img2 {
+    background-image: url('../imagens/eolica.jpg');
+    background-position: center; 
+    background-size: cover; 
+}
+
+.img3 {
+    background-image: url('../imagens/painel2.jpg');
+    background-position: center; 
+    background-size: cover; 
+}

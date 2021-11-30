@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/energia.css">
+    <title>TI Verde</title>
+</head>
+<body>
+
+    <div class="container-menu">
+        <div class="wrapper-menu">
+            <a href="index.html" class="logo">Green IT</a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button> <!-- Botão para ativar a lista de Menu-->
+                <ul id="menu" role="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#energia">Energia Limpa</a></li>
+                    <li><a href="/">Práticas</a></li>
+                    <li><a href="quem.html">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+</div>
+
+    <header class="wrapper">
+        <div class="header"></div>
+        <div class="slider"> <!-- Div que vai ter o conteúdo completo do slider -->
+            <div class="slider--controls"> <!-- Altura será ajustada via javascript-->
+                <div class="slider--control" onclick="goPrev()"><i class="fas fa-chevron-circle-left"></i></div>
+                <div class="slider--control" onclick="goNext()"><i class="fas fa-chevron-circle-right"></i></div>
+            </div>
+            <div class="slider--width"> <!-- Div que vai se mover de um lado para o outro. Div que contem as imagens-->
+                <div class="slider--item img1">
+                    <div class="hero-texto">
+                        <h2>Energia limpa</h2>
+                        <p>O uso de energia limpa é uma excelente forma de colaborar para um mundo melhor, pois não liberam resíduos na atmosfera e são facilmente implementadas..</p>
+                    </div>
+                </div>
+                <div class="slider--item img2">
+                    <div class="hero-texto">
+                        <h2>Energia Eólica</h2>
+                        <p>o Brasil tem um potencial de geração de energia eólica estimado em cerca de 500 gigawatts </p>
+                    </div>
+                </div>
+                <div class="slider--item img3">
+                    <div class="hero-texto">
+                        <h2>Painel Solar</h2>
+                        <p>O Painel Solar é composto pelos módulos fotovoltaicos ou placas solares que converte a luz do sol em energia elétrica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+        <section>
+            <h1 id="energia">Energia limpa</h1>
+            <p>As energias renováveis que não causam poluição pela emissão de substâncias são chamadas de energias limpas e incluem: solar, eólica, geotérmica, maremotriz e hidráulica.</p>
+            <p>O conceito envolve um conjunto de práticas mais ecológicas, entre elas o armazenamento em nuvem, a melhora no consumo de energia, a modernização de equipamentos para aumentar sua vida útil e o estabelecimento de uma política eficiente de descarte.</p>
+            <p>Vejamos dois exemplos energias limpas:</p>
+
+            <h2>Solar</h2>
+
+            <p>Recebemos do Sol uma quantidade 10 mil vezes maior de energia do que a necessária para a população mundial em um ano. Assim, toda essa energia pode ser aproveitada por meio de painéis com células fotovoltaicas. Essa energia térmica captada pode ser usada de modo direto em residências, como para aquecer a água do chuveiro ou aquecer ambientes, e pode também ser usada indiretamente para a geração de energia elétrica.</p>
+
+            <p>As principais vantagens são que depois de prontas para uso, não geram poluição alguma, seu impacto ambiental é insignificante e sua manutenção é bem barata.</p>
+
+            <p>Entretanto, as desvantagens estão ligadas ao fato de que é necessário extrair e processar silício para produzir os painéis solares, o que gera poluição (mas que pode ser controlada); além disso, o custo ainda continua elevado (mas à medida que essa tecnologia avança, ela vem se tornando cada vez mais economicamente viável), seu rendimento é baixo, sendo de apenas 25%, principalmente porque seu sistema de armazenamento de energia é pouco eficiente, sua produção oscila conforme o clima e à noite não existe produção.</p>
+
+        </section>
+        <section>
+            <h2>Eólica</h2>
+            <p>Sua matéria-prima é o vento, que é captado por uma turbina de duas ou três pás, ou seja, hélices presas em um pilar, chamadas de eólias. Seu rendimento depende da rapidez e constância dos ventos na região, o que requer uma análise desses dados antes desse sistema de energia ser implantado.</p>
+            <p>As vantagens principais da energia eólica são que o impacto ambiental é praticamente nenhum, e o custo de geração de eletricidade é baixo.</p>
+
+            <p>Infelizmente, algumas desvantagens também existem, pois apesar de reduzidos, ainda há impactos ambientais na instalação das usinas, causando alteração na paisagem local; pode haver ameaça para os pássaros se as eólias forem colocadas em suas rotas de migração, pode haver também poluição sonora e interferência em transmissões de rádio e TV.</p>
+        </section>
+
+
+        
+
+    </main>
+    <footer>
+        <p>Equipe Green TI</p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/menu-mobile.js"></script>
+</body>
+</html>
