@@ -429,6 +429,16 @@ section > ul > li::before {
 
 
 
+  
+footer {
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 15px;
+}
+
+
 /* MEDIA SCREEN E MENU-MOBILE */
 
 
@@ -443,6 +453,10 @@ section > ul > li::before {
 
 
 @media (max-width: 600px) {
+
+    .hero-texto h2 {
+        font-size: 4.5rem;
+    }
 
     .cards .card {
         width: 100%;
@@ -525,11 +539,3 @@ section > ul > li::before {
 
 /* FIM DO MENU-MOBILE */
 
-
-footer {
-    background-color: var(--cor1);
-    color: white;
-    text-align: center;
-    height: 150px;
-    padding-top: 15px;
-}
